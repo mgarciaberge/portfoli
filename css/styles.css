@@ -1,0 +1,195 @@
+html,body{
+    background-color: #222629;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size:1rem;
+    height:100%;
+    /* color: #6b6e70; */
+    color:#fff;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+.header img{
+    border-radius: 50%;
+    margin-top: 3rem;
+    border:8px solid #474b4f;
+    border-right-color:#6b6e70;
+    border-bottom-color:#6b6e70;
+}
+.header img:hover{
+    border-radius: 50%;
+    margin-top: 3rem;
+    border:8px solid #6b6e70;
+    border-right-color:#474b4f;
+    border-bottom-color:#474b4f;
+}
+
+
+.title{
+    font-family:'Baloo 2', sans-serif;
+    font-weight:100;
+    font-size:3.0rem;
+    margin:0.2em auto;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+
+}
+
+.bold_green{
+    color: #86c232 ;   
+    font-weight: bold;
+}
+
+.bold_white{
+    color: #fff ;   
+    font-weight: bold;
+}
+
+.subtitle {
+    font-family:'Baloo 2', sans-serif;
+    font-weight:100;
+    font-size:2rem;
+    margin:0.2em auto;
+    color:#61812f;
+    margin:0.8em auto
+
+}
+
+.social{
+    
+    margin:2.2rem auto;
+    text-align:center;
+    font-size:1.2rem;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+}
+
+.social .contacto{
+    display:inline-block;
+    width:2.2em;
+    height:2.2em;
+    line-height:2.2em;
+    margin-left:0.1em;
+    margin-right:0.1em;
+    background:#6b6e70;
+    border-radius:50%;
+    color:#535358;
+    text-align:center;
+    margin-left: 0.3em !important;
+    margin-right: 0.3em !important; 
+}
+
+.social .contacto:hover{
+    background:#86c232;
+    color:#fff;
+    box-shadow:0 0 1px 7px rgba(62, 182, 38, 0.25)
+}
+
+.nav {
+    /* margin-bottom: 50px; */
+}
+
+.nav a{
+    text-decoration: none;    
+}
+
+.button-div {
+    display: inline;
+}
+ 
+.buttons {
+    align-items: center;
+    background-color: #86c232;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin: 5px;
+    margin-bottom: 3rem;
+}
+ 
+ .buttons:hover,
+ .buttons:focus { 
+   background-color: #61812f;
+   color: #ffffff;
+ }
+ 
+ .buttons: active {
+   background: #09223b;
+   color: rgb(255, 255, 255, .7);
+ }
+ 
+ .buttons: disabled { 
+   cursor: not-allowed;
+   background: rgba(0, 0, 0, .08);
+   color: rgba(0, 0, 0, .3);
+ }
+
+.footer{
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-whidt:472px){
+    .button-div:nth-child(3){
+        display: block;
+        margin-top: 1rem;
+       
+    }
+    .button-div:nth-child(2){
+        margin-right: 0;
+    }
+    .buttons {
+        align-items: center;
+        background-color: #86c232;
+        border: 0;
+        border-radius: 100px;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        justify-content: center;
+        line-height: 20px;
+        max-width: 480px;
+        min-height: 40px;
+        min-width: 0px;
+        overflow: hidden;
+        padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        touch-action: manipulation;
+        transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: middle;
+        margin: 5px;
+        margin-bottom: 1rem;
+    }
+ }
